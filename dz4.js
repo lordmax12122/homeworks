@@ -38,7 +38,7 @@
 //     alert('Not right!')
 // }
 // console.log(gmail);
-// if (gmail === '@gmail.com' || gmail === '@ukr.net' || gmail === '@hotmail.com') {
+// if (gmail === '@gmail.com', gmail === '@ukr.net', gmail === '@hotmail.com') {
 //     alert('Nice')
 // } else {
 //     alert('Not right!')
