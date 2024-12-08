@@ -1,4 +1,9 @@
 // const friends = ['Mango', 'Poly', 'Kiwi', 'Ajax'];
+// let x = ""
+// for (let i = 0; i < friends.length; i++) {
+//     x = x + friends[i] + " "
+// } 
+// console.log(x)
 // const friend = friends.join(" ");
 // console.log(friend)
 
