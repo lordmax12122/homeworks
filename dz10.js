@@ -22,7 +22,7 @@
 
 // let timesClicked = 0;
 // function checkIfClicked() {
-//     const clicked = confirm('Are u going to click?')
+//     const clicked = prompt('Are u going to click?')
 //     if (clicked) {
 //         timesClicked++;
 //         console.log('U clicked');
@@ -32,11 +32,11 @@
 // }
 // checkIfClicked()
 
-const calculateDiscountedPrice = (price, discount, callback) => {
-  const calculatedPrice = price * discount;
-  callback(calculatedPrice);
-};
+// const calculateDiscountedPrice = (price, discount, callback) => {
+//   const calculatedPrice = price * discount;
+//   callback(calculatedPrice);
+// };
 
-const showCalculatedPrice = (calculatedPrice) => console.log(`Calculated price is ${calculatedPrice}`)
+// const showCalculatedPrice = (calculatedPrice) => console.log(`Calculated price is ${calculatedPrice}`)
 
-calculateDiscountedPrice(55.51, 0.123512, showCalculatedPrice);
+// calculateDiscountedPrice(55.51, 0.123512, showCalculatedPrice);
