@@ -20,17 +20,9 @@ const userIsActive = user.filter(user => user.isActive === false)
 console.log(userIsActive)
 
 
-const getUserNameByEmail = (arr, email) => {
-    for (let user of arr) {
-        if (user.email === email) {
-            return user.name
-        } else {
-            return console.log("I can't find that email")
-        }
-    }
-}
+const getUserNameByEmail = user.find(user => user.email === "maksymwithredeyes@gmail.com")
+console.log(getUserNameByEmail.name)
 
-console.log(getUserNameByEmail(user, "taras@gmail.com"));
 
 const userAge = (arr, min, max) => user.filter(user => user.age > min && user.age < max)
   console.log(userAge(user, 12, 16));
