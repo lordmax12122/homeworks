@@ -1,8 +1,8 @@
-// const user = {
-//     mood: "is happy",
-//     hobby: "is playing football",
-//     premium: "has premium"
-// }
+const user = {
+    mood: "is happy",
+    hobby: "is playing football",
+    premium: "has premium"
+}
 
 // user.hobby = "skydiving"
 // user.premium = "doesn't have premium"
