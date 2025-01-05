@@ -24,7 +24,7 @@ const user = {
 
 // let total = 0;
 
-// for(const value of values){
+// const value of values {
 //     total = value + total
 // }
 
@@ -42,7 +42,7 @@ const user = {
 // let best = 0;
 // let bestEmployee = "";
 // function findBestEmployee(workers) {
-// for (let name of Object.keys(workers)) {
+// let name of Object.keys(workers) {
 //     if (workers[name] > best) {
 //       best = workers[name];
 //       bestEmployee = name;
