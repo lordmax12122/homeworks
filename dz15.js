@@ -23,24 +23,14 @@ console.log(userFriends)
 const sortByFriends = (a, b) => a.friends - b.friends
 console.log(users.sort(sortByFriends))
 
-const sortedSkills = users.reduce((acc, skill) => {
-    if (acc.includes(skill)) {
-        return acc
-      } else {
-    return [...acc, skill]
- }
-}, []);
-sortedSkills.sort()
-console.log(sortedSkills);
-
-const findSkills = users.reduce((acc, user) => {
+const arrSkills = users.reduce((acc, user) => {
     acc.push(...user.skills);
     return acc
   } ,[]);
-  console.log(findSkills)
+  console.log(arrSkills)
 
-const filteredSkills = findSkills.reduce((acc, skill) => {
+const filteredArrSkills = arrSkills.reduce((acc, skill) => {
    return acc.includes(skill) ? acc : [...acc, skill] 
 } ,[])
 
-console.log(filteredSkills.sort());
+console.log(filteredArrSkills.sort());
