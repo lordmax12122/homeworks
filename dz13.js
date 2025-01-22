@@ -54,24 +54,24 @@
 
 // const [bee1, bee2, bee3] = bees
 
-const account = {
-    balance: 1234,
-    transactionsHistory: [],    
+// const account = {
+//     balance: 1234,
+//     transactionsHistory: [],    
 
-    deposit() {
-        const depositAccount = Number(prompt("Скільки грошиків хочете закинути на свою банківську карту?"));
-        account.balance += depositAccount;
-        account.transactionsHistory.push(`На рахунок добавлено ${depositAccount} гривень`)
-        console.log(account)
-    },
+//     deposit() {
+//         const depositAccount = Number(prompt("Скільки грошиків хочете закинути на свою банківську карту?"));
+//         account.balance += depositAccount;
+//         account.transactionsHistory.push(`На рахунок добавлено ${depositAccount} гривень`)
+//         console.log(account)
+//     },
 
-    withdraw() {
-        const withdrawAccount = Number(prompt("Скільки грошиків хочете зняти з своєї банківської карти?"));
-        account.balance -= withdrawAccount;
-        account.transactionsHistory.push(`З рахунку знято ${withdrawAccount} гривень`)
-        console.log(account)
-    }
-}
+//     withdraw() {
+//         const withdrawAccount = Number(prompt("Скільки грошиків хочете зняти з своєї банківської карти?"));
+//         account.balance -= withdrawAccount;
+//         account.transactionsHistory.push(`З рахунку знято ${withdrawAccount} гривень`)
+//         console.log(account)
+//     }
+// }
 
-account.deposit()
-account.withdraw()
+// account.deposit()
+// account.withdraw()
