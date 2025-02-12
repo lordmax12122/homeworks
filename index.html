@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./dz19.css">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
             <h2>text</h2>
         </li>
     </ul> -->
-<ul id="categories">
+    <!-- <ul id="categories">
     <li class="categories-item">
         <h2>Тварини</h2>
     <ul>
@@ -76,21 +77,69 @@
         <button type="button" data-action="decrement">-1</button>
         <span id="value">0</span>
         <button type="button" data-action="increment">+1</button>
-       </div>
-    <script src="./dz4.js"></script>
-    <script src="./dz5.js"></script>
-    <script src="./dz6.js"></script>
-    <script src="./dz7.js"></script>
-    <script src="./dz8.js"></script>
-    <script src="./dz9.js"></script>
-    <script src="./dz10.js"></script>
-    <script src="./dz11.js"></script>
-    <script src="./dz12.js"></script>
-    <script src="./dz13.js"></script>
-    <script src="./dz14.js"></script>
-    <script src="./dz15.js"></script>
-    <script src="./dz17.js"></script>
-    <script src="./dz18.js"></script>
+       </div> -->
+
+    <button class="button" open-modal>Відкрити
+        модалку</button>
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <h2>Modal window</h2>
+            <p>
+                In user interface design for computer applications, a
+                modal window is
+                a graphical control element subordinate to an
+                application's main window. It creates a mode that disables the main window
+                but keeps it
+                visible, with the modal window as a child window in front of it. Users
+                must interact with the modal window before they can return to the
+                parent application. This avoids interrupting the
+                workflow on the main
+                window. Modal windows are sometimes called heavy windows or modal
+                dialogs because they often display a dialog box.
+            </p>
+            <button class="button" close-modal>Закрити</button>
+        </div>
+    </div>
+
+
+        <form>
+            <p>Choose a color:</p>
+            <label>
+                <input class="red-input" type="radio" name="color" value="red" checked />
+                Red
+            </label>
+            <label>
+                <input class="white-input" type="radio" name="color" value="white" checked />
+                White
+            </label>
+            <label>
+                <input class="green-input" type="radio" name="color" value="green" checked />
+                Green
+            </label>
+        </form>
+        <input type="text" placeholder="Ваше ім'я?" id="name-input"/>
+        <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+
+        <input type="text" id="validation-input" data-length="6" placeholder="Введи 6 символів">
+
+        <input id="font-size-control" type="range" />
+        <br />
+        <span id="text">Абракадабра!</span>
+        <script src="./dz4.js"></script>
+        <script src="./dz5.js"></script>
+        <script src="./dz6.js"></script>
+        <script src="./dz7.js"></script>
+        <script src="./dz8.js"></script>
+        <script src="./dz9.js"></script>
+        <script src="./dz10.js"></script>
+        <script src="./dz11.js"></script>
+        <script src="./dz12.js"></script>
+        <script src="./dz13.js"></script>
+        <script src="./dz14.js"></script>
+        <script src="./dz15.js"></script>
+        <script src="./dz17.js"></script>
+        <script src="./dz18.js"></script>
+        <script src="./dz19.js"></script>
 </body>
 
 </html>
