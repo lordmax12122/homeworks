@@ -48,6 +48,6 @@ const galleryItem = images.map((image) =>
 `<li class="gallery-item">
 <img class="gallery-image" src="${image.url}" alt="${image.alt}">
 </li>`);
-console.log(galleryItem)
 gallery.insertAdjacentHTML("beforeend", galleryItem);
+console.log(gallery)
 
