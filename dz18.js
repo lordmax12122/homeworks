@@ -8,6 +8,8 @@ categoriesItem.forEach((item) => {
     console.log(`Кількість елементів: ${categoryItem.length}`);
 });
 
+
+const ingredientsList = document.querySelector("#ingredients");
 const ingredients = [
     'Картопля',
     'Гриби',
@@ -17,7 +19,6 @@ const ingredients = [
     'Приправи',
 ];
 
-const ingredientsList = document.querySelector("#ingredients");
 ingredients.map((goods) => {
     const goodsItem = document.createElement("li");
     goodsItem.textContent = goods;
@@ -25,6 +26,7 @@ ingredients.map((goods) => {
 });
 console.log(ingredientsList);
 
+const gallery = document.querySelector("#gallery");
 const images = [
     {
         url:
@@ -42,8 +44,6 @@ const images = [
         alt: 'Group of Horses Running',
     },
 ];
-
-const gallery = document.querySelector("#gallery");
 const galleryItem = images.map((image) => 
 `<li class="gallery-item">
 <img class="gallery-image" src="${image.url}" alt="${image.alt}">
